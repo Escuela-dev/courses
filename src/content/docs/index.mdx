@@ -1,0 +1,40 @@
+---
+title: Welcome to Escuela.dev Courses
+description: Start learning HTML, CSS and JavaScript with Escuela.dev Courses.
+template: splash
+hero:
+  tagline: Start learning HTML, CSS and JavaScript with Escuela.dev Courses.
+  image:
+    file: ../../assets/houston.webp
+  actions:
+    - text: Check Free Courses
+      link: /courses/main
+      icon: right-arrow
+    - text: Go to Escuela.dev
+      link: https://escuela.dev
+      icon: external
+      variant: minimal
+# banner:
+#   content: |
+#     We just launched something cool!
+#     <a href="https://example.com">Check it out</a>
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## Learn Frontend Development
+
+<CardGrid stagger>
+	<Card title="HTML Fundamentals" icon="document">
+		Master the structure of web pages with HTML5, forms, semantic markup, and accessibility best practices.
+	</Card>
+	<Card title="CSS Styling" icon="pencil">
+		Create beautiful, responsive designs with CSS layouts, Flexbox, Grid, animations and media queries.
+	</Card>
+	<Card title="JavaScript Programming" icon="setting">
+		Learn modern JavaScript to add interactivity, handle events, manipulate the DOM and work with APIs.
+	</Card>
+	<Card title="Developer Tools" icon="open-book">
+		Get hands-on practice using browser dev tools for debugging, optimization and responsive testing.
+	</Card>
+</CardGrid>
